@@ -13,7 +13,10 @@ inscripcion{"fechaInscripcion":"2024-21-05"}
       "inscripciones": [
         {
 
-![Texto alternativo](img/jason.jpeg)    
-![Texto alternativo](img/swagger.jpeg)    
-![Texto alternativo](img/port.jpeg)    
+![Texto alternativo](img/jason.jpeg) 
+swagger   
+![Texto alternativo](img/swagger.jpeg)
+port    
+![Texto alternativo](img/port.jpeg) 
+conexion y relacion   
 ![Texto alternativo](img/postman.jpeg)    
