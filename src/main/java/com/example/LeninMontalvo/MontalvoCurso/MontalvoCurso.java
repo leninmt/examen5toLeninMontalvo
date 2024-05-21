@@ -1,4 +1,4 @@
-package com.example.DavidQuiroga.QuirogaEspecialidad;
+package com.example.LeninMontalvo.MontalvoCurso;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,12 +7,11 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 
-@Entity
 @Data
-public class QuirogaEspecialidad {
+@Entity
+public class MontalvoCurso {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    public String name;
-    public String description;
+    public String nombreCurso;
 }

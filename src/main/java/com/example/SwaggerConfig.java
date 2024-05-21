@@ -11,8 +11,8 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                .title("API de Quiroga")
+                .title("API de Montalvo")
                 .version("1.0")
-                .description("Documentación de la API de Quiroga"));
+                .description("Documentación de la API de Montalvo"));
     }
 }
