@@ -21,6 +21,5 @@ public class QuirogaDoctor {
 
     @ManyToOne
     private QuirogaEspecialidad quirogaEspecialidad;
-
 }
 

@@ -3,7 +3,8 @@ package com.example.DavidQuiroga.QuirogaEnfermera;
 import java.math.BigDecimal;
 import java.sql.Date;
 
-import com.example.DavidQuiroga.QuirogaPaciente.QuirogaPaciente;
+import com.example.DavidQuiroga.QuirogaEspecialidad.QuirogaEspecialidad;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -25,5 +26,5 @@ public class QuirogaEnfermera {
     public BigDecimal sueldo;
 
     @ManyToOne
-    private QuirogaPaciente quirogaPaciente;
+    private QuirogaEspecialidad quirogaEspecialidad;
 }

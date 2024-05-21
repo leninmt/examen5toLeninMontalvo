@@ -19,5 +19,5 @@ public class QuirogaPaciente {
     public String email;
 
     @ManyToOne
-    private QuirogaDoctor doctor;
+    private QuirogaDoctor quirogaDoctor;
 }
